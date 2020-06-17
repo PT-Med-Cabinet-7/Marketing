@@ -3,11 +3,11 @@ The PVD is crucial to the planning phase and **is mandatory for all groups to co
 starting their project.**
 
 # ☝️ Proposal
-- What problem does your app solve?
+- What problem does your app solve?<br>
        - make sure that users of marijuana are paired with strains that are compatible with them
        - helps with dose, intake methods, and schedule that they should use the medical for
 - Be as specific as possible; how does your app solve the problem?
-       -
+       - It allows customers to pick appropriately based on their preferences and medical requirements
 - What is the mission statement?
        -
 
