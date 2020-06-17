@@ -4,8 +4,12 @@ starting their project.**
 
 # ☝️ Proposal
 - What problem does your app solve?
+       - make sure that users of marijuana are paired with strains that are compatible with them
+       - helps with dose, intake methods, and schedule that they should use the medical for
 - Be as specific as possible; how does your app solve the problem?
+       -
 - What is the mission statement?
+       -
 
 # 💡 Features
 - What features are required for your minimum viable product?
