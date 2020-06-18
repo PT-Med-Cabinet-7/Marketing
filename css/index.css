@@ -166,6 +166,7 @@ html {
   font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 .container .header-content nav img {
+  width: 15rem;
   border-radius: 8rem;
 }
 .container .header-content nav .first {
