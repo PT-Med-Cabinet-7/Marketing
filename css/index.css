@@ -135,7 +135,7 @@ nav a {
   margin: 0 0.5rem;
   padding: 0.5rem;
   color: #222629;
-  border: 1px solid #949090;
+  border: 1px solid #fff;
   background: #ff3b3f;
   text-decoration: none;
   font-size: 2.7rem;
@@ -312,7 +312,7 @@ img {
   padding: 1rem 0 0;
 }
 .container .main-content .right address a {
-  color: #949090;
+  color: #fff;
 }
 .container .main-content .right p,
 .container .main-content .right a {
@@ -326,7 +326,7 @@ img {
 .container .main-content h2,
 .container .main-content h3,
 .container .main-content h4 {
-  color: #949090;
+  color: #fff;
 }
 .container .main-content h2 {
   font-size: 3.5rem;
@@ -343,10 +343,10 @@ img {
 .container .main-content address {
   font-size: 2rem;
   font-family: 'Yanone Kaffeesatz', sans-serif;
-  color: #949090;
+  color: #fff;
 }
 .container .main-content p {
-  color: #949090;
+  color: #fff;
 }
 @media @media (max-width: 500px) {
   .container .main-content {
@@ -382,7 +382,7 @@ img {
   margin: 0 0 2rem;
   font-family: 'Anton', sans-serif;
   font-size: 4rem;
-  color: #949090;
+  color: #fff;
 }
 .footer-content {
   padding: 10rem;
@@ -392,12 +392,12 @@ img {
   background-color: #86c232;
 }
 .footer-content p {
-  color: #949090;
+  color: #fff;
   font-size: 2.7rem;
   font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 .footer-content a {
-  color: #949090;
+  color: #fff;
   text-decoration: none;
   font-size: 2.7rem;
   font-family: 'Yanone Kaffeesatz', sans-serif;
