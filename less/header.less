@@ -1,6 +1,9 @@
 .header-content {
     padding: @section-padding;
     background-color: @header-footer;
+    @media  @max500 { 
+        padding: @mobile-header-padding;
+    }
 
     h1 {
         margin: 0 0 2rem;

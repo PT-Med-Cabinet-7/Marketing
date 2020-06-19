@@ -53,4 +53,63 @@ nav {
         /* contact */
         order: 7;
     } 
+    @media  @max500 { 
+        display: grid;
+        grid-gap: 0.5rem;
+        grid-template-columns: repeat(2, [col] 16rem);
+        grid-template-rows: repeat(3, [row] 6rem);
+        justify-items: normal;
+        padding: 3rem;
+
+        h1 {
+            /* harvey */
+            order: 1;
+        }
+        
+        img {
+            display: none;
+        }
+
+        a {
+            /*margin: 1rem 1.5rem;*/
+            /*margin: 0 0.5rem;*/
+            padding: 0.5rem 1rem;
+            color: #efefef;
+            border: 2px solid #a9a9a9;
+            background: #ff3b3f;
+            text-decoration: none;
+        }
+
+        .second {
+            /* harvey */
+            grid-column: col / span 2;
+            grid-row: row;
+        } 
+
+        .third {
+            /* magana */
+            grid-column: col 2 / span 2;
+            grid-row: row;
+        } 
+
+        .fourth {
+            /* home*/
+            grid-column: col 1 / span 1;
+        } 
+
+        .fifth {
+            /* about */
+            grid-column: col 2 / span 1;
+        } 
+
+        .sixth { 
+            /* work*/
+            grid-column: col 1 / span 1;
+        } 
+
+        .seventh {
+            /* contact */
+            grid-column: col 2 / span 1;
+        }
+    }
 }
