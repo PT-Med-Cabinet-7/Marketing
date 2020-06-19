@@ -134,8 +134,8 @@ nav {
 nav a {
   margin: 0 0.5rem;
   padding: 0.5rem;
-  color: #222629;
-  border: 1px solid #fff;
+  color: #fff;
+  border: 1px solid #6b6e70;
   background: #ff3b3f;
   text-decoration: none;
   font-size: 2.7rem;
@@ -326,7 +326,7 @@ img {
 .container .main-content h2,
 .container .main-content h3,
 .container .main-content h4 {
-  color: #fff;
+  color: #86c232;
 }
 .container .main-content h2 {
   font-size: 3.5rem;
