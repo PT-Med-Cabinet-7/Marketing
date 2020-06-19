@@ -126,207 +126,156 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-html,
-body,
-div,
-span,
-applet,
-object,
-iframe,
-h1,
-h2,
-h3,
-h4,
-h5,
-h6,
-p,
-blockquote,
-pre,
-a,
-abbr,
-acronym,
-address,
-big,
-cite,
-code,
-del,
-dfn,
-em,
-img,
-ins,
-kbd,
-q,
-s,
-samp,
-small,
-strike,
-strong,
-sub,
-sup,
-tt,
-var,
-b,
-u,
-i,
-center,
-dl,
-dt,
-dd,
-ol,
-ul,
-li,
-fieldset,
-form,
-label,
-legend,
-table,
-caption,
-tbody,
-tfoot,
-thead,
-tr,
-th,
-td,
-article,
-aside,
-canvas,
-details,
-embed,
-figure,
-figcaption,
-footer,
-header,
-hgroup,
-menu,
-nav,
-output,
-ruby,
-section,
-summary,
-time,
-mark,
-audio,
-video {
-  margin: 0;
-  padding: 0;
-  border: 0;
-  font-size: 100%;
-  font: inherit;
-  vertical-align: baseline;
-}
-/* HTML5 display-role reset for older browsers */
-article,
-aside,
-details,
-figcaption,
-figure,
-footer,
-header,
-hgroup,
-menu,
-nav,
-section {
-  display: block;
-}
-body {
-  line-height: 1;
-}
-ol,
-ul {
-  list-style: none;
-}
-blockquote,
-q {
-  quotes: none;
-}
-blockquote:before,
-blockquote:after,
-q:before,
-q:after {
-  content: '';
-  content: none;
-}
-table {
-  border-collapse: collapse;
-  border-spacing: 0;
-}
-/* Set every element's box-sizing to border-box */
-* {
-  box-sizing: border-box;
-}
-html,
-body {
-  height: 100%;
-}
-html {
-  font-size: 62.5%;
-}
-.container {
-  margin: 0;
-}
-.container .header-content {
-  padding: 5rem;
-  background-color: #caebf2;
-}
-.container .header-content h1 {
-  margin: 0 0 2rem;
-  font-family: 'Anton', sans-serif;
-  font-size: 4rem;
-  color: #949090;
-}
-.container .header-content nav {
+nav {
   display: flex;
   align-items: baseline;
   justify-content: space-between;
 }
-.container .header-content nav a {
+nav a {
   margin: 0 0.5rem;
   padding: 0.5rem;
-  color: #efefef;
+  color: #222629;
   border: 1px solid #949090;
   background: #ff3b3f;
   text-decoration: none;
   font-size: 2.7rem;
   font-family: 'Yanone Kaffeesatz', sans-serif;
 }
-.container .header-content nav img {
+nav img {
   border-radius: 8rem;
   width: 15rem;
 }
-.container .header-content nav .first {
+nav .first {
   /* img */
   order: 4;
 }
-.container .header-content nav .second {
+nav .second {
   /* harvey */
   order: 3;
 }
-.container .header-content nav .third {
+nav .third {
   /* magana */
   order: 5;
 }
-.container .header-content nav .fourth {
+nav .fourth {
   /* home*/
   order: 1;
 }
-.container .header-content nav .fifth {
+nav .fifth {
   /* about */
   order: 2;
 }
-.container .header-content nav .sixth {
+nav .sixth {
   /* work*/
   order: 6;
 }
-.container .header-content nav .seventh {
+nav .seventh {
   /* contact */
   order: 7;
 }
+@media @media (max-width: 500px) {
+  nav {
+    display: grid;
+    grid-gap: 0.5rem;
+    grid-template-columns: repeat(2, [col] 16rem);
+    grid-template-rows: repeat(3, [row] 6rem);
+    justify-items: normal;
+    padding: 3rem;
+  }
+  nav h1 {
+    /* harvey */
+    order: 1;
+  }
+  nav img {
+    display: none;
+  }
+  nav a {
+    /*margin: 1rem 1.5rem;*/
+    /*margin: 0 0.5rem;*/
+    padding: 0.5rem 1rem;
+    color: #efefef;
+    border: 2px solid #a9a9a9;
+    background: #ff3b3f;
+    text-decoration: none;
+  }
+  nav .second {
+    /* harvey */
+    grid-column: col / span 2;
+    grid-row: row;
+  }
+  nav .third {
+    /* magana */
+    grid-column: col 2 / span 2;
+    grid-row: row;
+  }
+  nav .fourth {
+    /* home*/
+    grid-column: col 1 / span 1;
+  }
+  nav .fifth {
+    /* about */
+    grid-column: col 2 / span 1;
+  }
+  nav .sixth {
+    /* work*/
+    grid-column: col 1 / span 1;
+  }
+  nav .seventh {
+    /* contact */
+    grid-column: col 2 / span 1;
+  }
+}
+* {
+  box-sizing: border-box;
+}
+html {
+  font-size: 62.5%;
+}
+html,
+body {
+  height: 100%;
+}
+html,
+body {
+  font-family: 'Roboto', sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Indie Flower', cursive;
+}
+h1 {
+  font-size: 4rem;
+}
+h2 {
+  font-size: 3.2rem;
+  padding-bottom: 10px;
+}
+h4 {
+  font-size: 2.5rem;
+  padding-bottom: 10px;
+}
+p {
+  line-height: 1.5;
+  font-size: 1.6rem;
+  padding-bottom: 10px;
+}
+img {
+  max-width: 100%;
+  height: auto;
+}
+.container {
+  margin: 0;
+}
+@media @media (max-width: 500px) {
+  .container {
+    margin: 0;
+  }
+}
 .container .main-content {
-  background-color: #efefef;
+  background-color: #222629;
   padding: 5rem;
   display: flex;
 }
@@ -399,81 +348,7 @@ html {
 .container .main-content p {
   color: #949090;
 }
-.container .footer-content {
-  padding: 10rem;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  background-color: #caebf2;
-}
-.container .footer-content p {
-  color: #949090;
-  font-size: 2.7rem;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-}
-.container .footer-content a {
-  color: #949090;
-  text-decoration: none;
-  font-size: 2.7rem;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-}
-@media (max-width: 500px) {
-  .container {
-    margin: 0;
-  }
-  .container .header-content {
-    padding: 6rem 3rem 0;
-  }
-  .container .header-content nav {
-    display: grid;
-    grid-gap: 0.5rem;
-    grid-template-columns: repeat(2, [col] 16rem);
-    grid-template-rows: repeat(3, [row] 6rem);
-    justify-items: normal;
-    padding: 3rem;
-  }
-  .container .header-content nav h1 {
-    /* harvey */
-    order: 1;
-  }
-  .container .header-content nav img {
-    display: none;
-  }
-  .container .header-content nav a {
-    /*margin: 1rem 1.5rem;*/
-    /*margin: 0 0.5rem;*/
-    padding: 0.5rem 1rem;
-    color: #efefef;
-    border: 2px solid #a9a9a9;
-    background: #ff3b3f;
-    text-decoration: none;
-  }
-  .container .header-content nav .second {
-    /* harvey */
-    grid-column: col / span 2;
-    grid-row: row;
-  }
-  .container .header-content nav .third {
-    /* magana */
-    grid-column: col 2 / span 2;
-    grid-row: row;
-  }
-  .container .header-content nav .fourth {
-    /* home*/
-    grid-column: col 1 / span 1;
-  }
-  .container .header-content nav .fifth {
-    /* about */
-    grid-column: col 2 / span 1;
-  }
-  .container .header-content nav .sixth {
-    /* work*/
-    grid-column: col 1 / span 1;
-  }
-  .container .header-content nav .seventh {
-    /* contact */
-    grid-column: col 2 / span 1;
-  }
+@media @media (max-width: 500px) {
   .container .main-content {
     padding: 3rem;
     display: flex;
@@ -493,7 +368,42 @@ html {
   .container .main-content .left h3 {
     margin: 2rem 0 2rem;
   }
-  .container .footer-content {
+}
+.header-content {
+  padding: 5rem;
+  background-color: #86c232;
+}
+@media @media (max-width: 500px) {
+  .header-content {
+    padding: 6rem 3rem 0;
+  }
+}
+.header-content h1 {
+  margin: 0 0 2rem;
+  font-family: 'Anton', sans-serif;
+  font-size: 4rem;
+  color: #949090;
+}
+.footer-content {
+  padding: 10rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #86c232;
+}
+.footer-content p {
+  color: #949090;
+  font-size: 2.7rem;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.footer-content a {
+  color: #949090;
+  text-decoration: none;
+  font-size: 2.7rem;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+@media @media (max-width: 500px) {
+  .footer-content {
     padding: 3rem;
   }
 }
