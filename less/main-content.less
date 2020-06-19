@@ -1,8 +1,7 @@
 .container {
     margin: @page-margin;
-    @media  @max500 { 
-        margin: @page-margin; 
-    }
+	@media  @mobile { margin: @page-margin; }
+	@media @mobile {width: 100%;}
 
 	.main-content {
 		background-color: @main-content;
@@ -89,7 +88,7 @@
 			color: @font-styles;
         }
 
-        @media  @max500 { 
+        @media  @mobile { 
 			padding: @mobile-padding;
 			display: flex;
 			flex-direction: column;
