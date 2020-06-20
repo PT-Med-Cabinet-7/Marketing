@@ -314,6 +314,12 @@ img {
   width: 50%;
   padding: 5rem;
 }
+@media (max-width: 500px) {
+  .container .main-content .about-left {
+    width: 100%;
+    padding: 1rem;
+  }
+}
 .container .main-content .about-left img {
   margin: 0 0 2rem;
 }
@@ -353,6 +359,12 @@ img {
 .container .main-content .about-right {
   width: 50%;
   padding: 8rem 0;
+}
+@media (max-width: 500px) {
+  .container .main-content .about-right {
+    width: 100%;
+    padding: 1rem 0;
+  }
 }
 .container .main-content .about-right p {
   font-size: 2.7rem;
