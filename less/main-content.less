@@ -11,6 +11,7 @@
 		.left {
 			width: 70%;
 			padding: 5rem;
+			@media @tablet {width: 65%;}
 	
 			h1 {
 				margin: 0 0 2rem;
@@ -23,7 +24,7 @@
 			}
 		
 			h3 {
-				margin: 0 0 0.6rem;
+				margin: 0 0 1rem;
 			}
 
 			p {
@@ -38,6 +39,7 @@
 		.right {
 			width: 25%;
 			padding: 5rem;
+			@media @tablet {width: 35%;}
 		
 			h2 {
 				margin: 0 0 2rem;
@@ -71,9 +73,8 @@
 		h3 {
 			font-size: 3rem;
 			font-family: @h-fonts;
-			@media @mobile {
-				margin-bottom: 1.5rem;
-			}
+			@media @mobile {margin-bottom: 1.5rem;}
+			@media @tablet {margin-bottom: 1.5rem;;}
 		}
 
 		h4 {

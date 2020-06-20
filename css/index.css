@@ -287,6 +287,11 @@ img {
   width: 70%;
   padding: 5rem;
 }
+@media (max-width: 1000px) {
+  .container .main-content .left {
+    width: 65%;
+  }
+}
 .container .main-content .left h1 {
   margin: 0 0 2rem;
   font-family: 'Anton', sans-serif;
@@ -296,7 +301,7 @@ img {
   margin: 0 0 1rem;
 }
 .container .main-content .left h3 {
-  margin: 0 0 0.6rem;
+  margin: 0 0 1rem;
 }
 .container .main-content .left p {
   font-size: 2.7rem;
@@ -308,6 +313,11 @@ img {
 .container .main-content .right {
   width: 25%;
   padding: 5rem;
+}
+@media (max-width: 1000px) {
+  .container .main-content .right {
+    width: 35%;
+  }
 }
 .container .main-content .right h2 {
   margin: 0 0 2rem;
@@ -341,6 +351,11 @@ img {
   font-family: 'Anton', sans-serif;
 }
 @media (max-width: 500px) {
+  .container .main-content h3 {
+    margin-bottom: 1.5rem;
+  }
+}
+@media (max-width: 1000px) {
   .container .main-content h3 {
     margin-bottom: 1.5rem;
   }
