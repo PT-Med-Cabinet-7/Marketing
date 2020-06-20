@@ -139,7 +139,7 @@ nav {
 @media (max-width: 500px) {
   nav {
     grid-gap: 0.5rem;
-    grid-template-columns: repeat(2, [col] 16rem);
+    grid-template-columns: repeat(2, [col] 10rem);
     grid-template-rows: repeat(3, [row] 6rem);
     justify-items: normal;
     padding: 3rem;
@@ -376,6 +376,11 @@ img {
 .container .main-content .products ul {
   display: flex;
 }
+@media (max-width: 500px) {
+  .container .main-content .products ul {
+    flex-direction: column;
+  }
+}
 .container .main-content .products li {
   padding: 1rem;
 }
@@ -390,6 +395,10 @@ img {
 }
 .container .main-content .products .accessories {
   flex: 1.5023;
+}
+.container .main-content .products p {
+  font-size: 2.7rem;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 .container .main-content h1,
 .container .main-content h2,
