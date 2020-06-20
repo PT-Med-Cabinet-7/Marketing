@@ -455,21 +455,6 @@ img {
     margin: 2rem 0 2rem;
   }
 }
-.header-content {
-  padding: 5rem;
-  background-color: #86c232;
-}
-@media (max-width: 500px) {
-  .header-content {
-    padding: 6rem 3rem 0;
-  }
-}
-.header-content h1 {
-  margin: 0 0 2rem;
-  font-family: 'Anton', sans-serif;
-  font-size: 4rem;
-  color: #fff;
-}
 .footer-content {
   padding: 10rem;
   display: flex;
@@ -492,4 +477,19 @@ img {
   .footer-content {
     padding: 3rem;
   }
+}
+.header-content {
+  padding: 5rem;
+  background-color: #86c232;
+}
+@media (max-width: 500px) {
+  .header-content {
+    padding: 6rem 3rem 0;
+  }
+}
+.header-content h1 {
+  margin: 0 0 2rem;
+  font-family: 'Anton', sans-serif;
+  font-size: 4rem;
+  color: #fff;
 }
