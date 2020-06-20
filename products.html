@@ -83,9 +83,8 @@
             if(window.location.href.includes("products.html")) {
                 let main = document.getElementsByClassName("main-content");
                 if(document.getElementsByClassName("main-content").style === main.stye) {
-                    console.log("They are the same");
-                    console.log(main[0].style)
                     main[0].style.flexDirection = "column";
+                    document.getElementsByTagName("h2")[0].style.padding = "0.8rem";
                 }
             }
         })()
