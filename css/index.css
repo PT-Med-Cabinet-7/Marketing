@@ -312,7 +312,7 @@ img {
 }
 .container .main-content .right {
   width: 25%;
-  padding: 5rem;
+  padding: 2rem;
 }
 @media (max-width: 1000px) {
   .container .main-content .right {
@@ -324,6 +324,9 @@ img {
 }
 .container .main-content .right address {
   padding: 1rem 0 0;
+}
+.container .main-content .right address span {
+  font-size: 3rem;
 }
 .container .main-content .right address a {
   color: #fff;
