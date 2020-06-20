@@ -310,6 +310,17 @@ img {
 .container .main-content .left ul {
   line-height: 3.5rem;
 }
+.container .main-content .about-left {
+  width: 50%;
+  padding: 5rem;
+}
+.container .main-content .about-left img {
+  margin: 0 0 2rem;
+}
+.container .main-content .about-left p {
+  font-size: 2.7rem;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
 .container .main-content .right {
   width: 25%;
   padding: 2rem;
@@ -338,6 +349,14 @@ img {
 }
 .container .main-content .right ul {
   line-height: 3.5rem;
+}
+.container .main-content .about-right {
+  width: 50%;
+  padding: 8rem 0;
+}
+.container .main-content .about-right p {
+  font-size: 2.7rem;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 .container .main-content h1,
 .container .main-content h2,
