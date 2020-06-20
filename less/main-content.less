@@ -1,8 +1,7 @@
 .container {
     margin: @page-margin;
-    @media  @max500 { 
-        margin: @page-margin; 
-    }
+	@media  @mobile { margin: @page-margin; }
+	@media @mobile {width: 100%;}
 
 	.main-content {
 		background-color: @main-content;
@@ -12,6 +11,7 @@
 		.left {
 			width: 70%;
 			padding: 5rem;
+			@media @tablet {width: 65%;}
 	
 			h1 {
 				margin: 0 0 2rem;
@@ -24,7 +24,7 @@
 			}
 		
 			h3 {
-				margin: 0 0 0.6rem;
+				margin: 0 0 1rem;
 			}
 
 			p {
@@ -36,9 +36,27 @@
 			}
 		}
 
+		.about-left {
+			width: 50%;
+			padding: 5rem;
+			@media @mobile {
+				width: 100%;
+				padding: 1rem;
+			}
+
+			img {
+				margin: 0 0 2rem;
+			}
+
+			p {
+				.banana()
+			}
+		}
+
 		.right {
 			width: 25%;
-			padding: 5rem;
+			padding: 2rem;
+			@media @tablet {width: 35%;}
 		
 			h2 {
 				margin: 0 0 2rem;
@@ -46,6 +64,9 @@
 		
 			address {
 				padding: 1rem 0 0;
+				span {
+					font-size: 3rem;
+				}
 			}
 			address a {
 				color: @font-styles;
@@ -60,6 +81,19 @@
 			}
 		}
 		
+		.about-right {
+			width: 50%;
+			padding: 8rem 0;
+			@media @mobile {
+				width: 100%;
+				padding: 1rem 0;
+			}
+
+			p {
+				.banana()
+			}
+		}
+
 		h1, h2, h3, h4 {
 			color: @header-footer;
 		}
@@ -72,6 +106,8 @@
 		h3 {
 			font-size: 3rem;
 			font-family: @h-fonts;
+			@media @mobile {margin-bottom: 1.5rem;}
+			@media @tablet {margin-bottom: 1.5rem;;}
 		}
 
 		h4 {
@@ -89,7 +125,7 @@
 			color: @font-styles;
         }
 
-        @media  @max500 { 
+        @media  @mobile { 
 			padding: @mobile-padding;
 			display: flex;
 			flex-direction: column;
