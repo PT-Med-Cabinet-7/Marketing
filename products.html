@@ -1,0 +1,93 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+
+  <title>My Resume</title>
+
+  <link rel="stylesheet" href="css/index.css">
+  <link href = "less/index.less" rel = "stylesheet/less" type = "text/css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Anton&family=Yanone+Kaffeesatz:wght@500&display=swap" rel="stylesheet">
+
+  <!--[if lt IE 9]>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+  <![endif]-->
+</head>
+
+<body>
+  <div class="container">
+    <header>
+        <div class="header-content">
+            <nav>
+              <img class="first" src="img/weedgotcha.png" />
+              <h1 class="second" >Weed</h1>
+              <h1 class="third">Gotcha</h1>
+              <a class="fourth" href="index.html">Home</a>
+              <a class="fifth" href="about.html">About</a>
+              <a class="sixth" href="products.html">Products</a>
+              <a class="seventh" href="#">Contact</a>
+            </nav>
+        </div>
+    </header>
+    <section>
+      <div class="main-content">
+          <div>
+            <h2>Products</h2>
+          </div>
+        <article class="products">
+            <ul>
+                    <li class="strains">
+                        <figure>
+                        <img src="/img/add-weed-CfSkoM-Wb9c-unsplash.jpg"
+                                alt="Strains of medicinal marijuana">
+                        <figcaption><p>Strains</p></figcaption>
+                        </figure>
+                    </li>
+                    <li class="oils">
+                        <figure>
+                            <img src="/img/enecta-cannabis-extracts-BtmopF7yNYg-unsplash.jpg"
+                                    alt="Oils for consumption made from medical marijuana">
+                            <figcaption><p>Oils</p></figcaption>
+                        </figure>
+                    </li>
+                    <li class="edibles">
+                        <figure>
+                            <img src="/img/pharma-hemp-complex-45eGK42Vzwo-unsplash.jpg"
+                                    alt="Edible marijuana products">
+                            <figcaption><p>Edibles</p></figcaption>
+                        </figure>
+                    </li>
+                    <li class="accessories">
+                        <figure>
+                            <img src="/img/grav-3rhZlxe9D4g-unsplash.jpg"
+                                    alt="Various accessories to consume your medical marijuana">
+                            <figcaption><p>Accessories</p></figcaption>
+                        </figure>
+                    </li>
+                </ul>
+        </article>
+    </div>
+    </section>
+    <footer>
+      <div class="footer-content">
+        <article class="left-footer"></article>
+        <article class="middle-footer"><p>&copy; Need it or want it? Weed Gotcha!</p></article>
+        <article class="right-footer"></article>
+      </div>
+    </footer>
+  </div>
+  <script>
+      (function productsPage() {
+            if(window.location.href.includes("products.html")) {
+                let main = document.getElementsByClassName("main-content");
+                if(document.getElementsByClassName("main-content").style === main.stye) {
+                    main[0].style.flexDirection = "column";
+                    document.getElementsByTagName("h2")[0].style.padding = "0.8rem";
+                }
+            }
+        })()
+  </script>
+</body>
+</html>
