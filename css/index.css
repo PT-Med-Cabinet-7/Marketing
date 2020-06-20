@@ -169,7 +169,7 @@ nav .first {
   order: 4;
 }
 nav .second {
-  /* harvey */
+  /* Weed */
   order: 3;
 }
 @media (max-width: 500px) {
@@ -179,7 +179,7 @@ nav .second {
   }
 }
 nav .third {
-  /* magana */
+  /* Gotcha */
   order: 5;
 }
 @media (max-width: 500px) {
@@ -262,7 +262,7 @@ p {
   padding-bottom: 10px;
 }
 img {
-  max-width: 100%;
+  width: 100%;
   height: auto;
 }
 .container {
@@ -370,17 +370,41 @@ img {
   font-size: 2.7rem;
   font-family: 'Yanone Kaffeesatz', sans-serif;
 }
+.container .main-content .products {
+  width: 100%;
+}
+.container .main-content .products ul {
+  display: flex;
+}
+.container .main-content .products li {
+  padding: 1rem;
+}
+.container .main-content .products .strains {
+  flex: 1.5023;
+}
+.container .main-content .products .oils {
+  flex: 1.5023;
+}
+.container .main-content .products .edibles {
+  flex: 1.42;
+}
+.container .main-content .products .accessories {
+  flex: 1.5023;
+}
 .container .main-content h1,
 .container .main-content h2,
 .container .main-content h3,
 .container .main-content h4 {
+  /* consider moving this to global */
   color: #86c232;
 }
 .container .main-content h2 {
+  /* consider moving this to global */
   font-size: 3.5rem;
   font-family: 'Anton', sans-serif;
 }
 .container .main-content h3 {
+  /* consider moving this to global */
   font-size: 3rem;
   font-family: 'Anton', sans-serif;
 }
@@ -395,19 +419,23 @@ img {
   }
 }
 .container .main-content h4 {
+  /* consider moving this to global */
   font-size: 2.5rem;
   font-family: 'Anton', sans-serif;
 }
 .container .main-content address {
+  /* consider moving this to global */
   font-size: 2rem;
   font-family: 'Yanone Kaffeesatz', sans-serif;
   color: #fff;
 }
 .container .main-content p {
+  /* consider moving this to global */
   color: #fff;
 }
 @media (max-width: 500px) {
   .container .main-content {
+    /* what is this all about? */
     padding: 3rem;
     display: flex;
     flex-direction: column;
