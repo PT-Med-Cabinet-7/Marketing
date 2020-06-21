@@ -457,6 +457,11 @@ address {
 .footer-content .left-footer {
   padding: 2rem 9rem;
 }
+@media (max-width: 1000px) {
+  .footer-content .left-footer {
+    padding: 2rem 2rem;
+  }
+}
 .footer-content .left-footer ul {
   display: flex;
 }
@@ -474,12 +479,22 @@ address {
     order: 2;
   }
 }
+@media (max-width: 1000px) {
+  .footer-content .middle-footer {
+    padding: 2rem 2rem;
+  }
+}
 .footer-content .right-footer {
   padding: 2rem 9rem;
 }
 @media (max-width: 500px) {
   .footer-content .right-footer {
     order: 1;
+  }
+}
+@media (max-width: 1000px) {
+  .footer-content .right-footer {
+    padding: 2rem 2rem;
   }
 }
 .footer-content .right-footer h4 {
