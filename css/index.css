@@ -234,23 +234,41 @@ html,
 body {
   height: 100%;
 }
+h1,
+h2,
+h3,
+h4 {
+  color: #86c232;
+}
 h1 {
-  /* font-size: 4rem; */
   margin: 0 0 2rem;
   font-family: 'Anton', sans-serif;
   font-size: 4rem;
 }
 h2 {
-  /* font-size: 3.2rem; */
   padding-bottom: 10px;
   margin: 0 0 1rem;
+  font-size: 3.5rem;
+  font-family: 'Anton', sans-serif;
 }
 h3 {
   margin: 0 0 1rem;
+  font-size: 3rem;
+  font-family: 'Anton', sans-serif;
+}
+@media (max-width: 500px) {
+  h3 {
+    margin-bottom: 1.5rem;
+  }
+}
+@media (max-width: 1000px) {
+  h3 {
+    margin-bottom: 1.5rem;
+  }
 }
 h4 {
-  /* font-size: 2.5rem; */
-  /* padding-bottom: 10px; */
+  font-size: 2.5rem;
+  font-family: 'Anton', sans-serif;
 }
 a {
   font-size: 2.7rem;
@@ -282,6 +300,12 @@ p {
 img {
   width: 100%;
   height: auto;
+}
+address {
+  /* consider moving this to global */
+  font-size: 2rem;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+  color: #fff;
 }
 .container {
   margin: 0;
@@ -396,44 +420,6 @@ img {
 .container .main-content .products .accessories {
   flex: 1.5023;
 }
-.container .main-content h1,
-.container .main-content h2,
-.container .main-content h3,
-.container .main-content h4 {
-  /* consider moving this to global */
-  color: #86c232;
-}
-.container .main-content h2 {
-  /* consider moving this to global */
-  font-size: 3.5rem;
-  font-family: 'Anton', sans-serif;
-}
-.container .main-content h3 {
-  /* consider moving this to global */
-  font-size: 3rem;
-  font-family: 'Anton', sans-serif;
-}
-@media (max-width: 500px) {
-  .container .main-content h3 {
-    margin-bottom: 1.5rem;
-  }
-}
-@media (max-width: 1000px) {
-  .container .main-content h3 {
-    margin-bottom: 1.5rem;
-  }
-}
-.container .main-content h4 {
-  /* consider moving this to global */
-  font-size: 2.5rem;
-  font-family: 'Anton', sans-serif;
-}
-.container .main-content address {
-  /* consider moving this to global */
-  font-size: 2rem;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
-  color: #fff;
-}
 @media (max-width: 500px) {
   .container .main-content {
     /* what is this all about? */
@@ -448,12 +434,6 @@ img {
   .container .main-content .right {
     width: 100%;
     padding: 3rem;
-  }
-  .container .main-content .left h2 {
-    /* display: none; */
-  }
-  .container .main-content .left h3 {
-    margin: 2rem 0 2rem;
   }
 }
 .footer-content {
