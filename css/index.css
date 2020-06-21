@@ -435,9 +435,13 @@ address {
 .footer-content {
   padding: 10rem;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  flex-direction: row;
   background-color: #86c232;
+}
+@media (max-width: 500px) {
+  .footer-content {
+    flex-direction: column;
+  }
 }
 .footer-content p {
   color: #fff;
@@ -449,6 +453,45 @@ address {
   text-decoration: none;
   font-size: 2.7rem;
   font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+.footer-content .left-footer {
+  padding: 2rem 9rem;
+}
+.footer-content .left-footer ul {
+  display: flex;
+}
+.footer-content .left-footer li {
+  padding: 0.5rem;
+}
+.footer-content .left-footer .fa-2x {
+  color: #fff;
+}
+.footer-content .middle-footer {
+  padding: 2rem 9rem;
+}
+@media (max-width: 500px) {
+  .footer-content .middle-footer {
+    order: 2;
+  }
+}
+.footer-content .right-footer {
+  padding: 2rem 9rem;
+}
+@media (max-width: 500px) {
+  .footer-content .right-footer {
+    order: 1;
+  }
+}
+.footer-content .right-footer h4 {
+  color: #fff;
+}
+.footer-content .right-footer address {
+  text-align: end;
+}
+@media (max-width: 500px) {
+  .footer-content .right-footer address {
+    text-align: justify;
+  }
 }
 @media (max-width: 500px) {
   .footer-content {
