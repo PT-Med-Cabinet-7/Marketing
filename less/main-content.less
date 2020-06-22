@@ -23,6 +23,7 @@
 				width: 100%;
 				padding: 1rem;
 			}
+			/* @media @tablet {width: 40%;}*/
 
 			img {
 				margin: 0 0 2rem;
@@ -85,7 +86,7 @@
 			}
 
 			a.oils:hover::after {
-				content: "We have CBD oils if you prefer to ingest your orally." ;
+				content: "We have CBD oils if you prefer to ingest your medicinal products orally." ;
 				position: absolute ;
 				bottom: 150%;
 				left: 50%;
@@ -170,11 +171,25 @@
 				width: 100%;
 				padding: 1rem 0;
 			}
+			@media @mobile {width: 100%;}
+			/*@media @tablet {width: 60%;}*/
 
 			p {
 				@media @mobile {
 					padding: 1rem;
 				}
+			}
+
+			.card {
+				margin: 1rem 0;
+				display: flex;
+				p {
+					margin: 0 1rem;
+				}
+			}
+
+			.card img {
+				width: 35%;
 			}
 		}
 
