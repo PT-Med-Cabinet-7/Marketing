@@ -345,6 +345,7 @@ address {
 .container .main-content .about-left {
   width: 50%;
   padding: 1rem;
+  /* @media @tablet {width: 40%;}*/
 }
 @media (max-width: 500px) {
   .container .main-content .about-left {
@@ -496,11 +497,17 @@ address {
 .container .main-content .about-right {
   width: 50%;
   padding: 5rem 2rem;
+  /*@media @tablet {width: 60%;}*/
 }
 @media (max-width: 500px) {
   .container .main-content .about-right {
     width: 100%;
     padding: 1rem 0;
+  }
+}
+@media (max-width: 500px) {
+  .container .main-content .about-right {
+    width: 100%;
   }
 }
 @media (max-width: 500px) {
