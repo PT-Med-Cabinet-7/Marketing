@@ -47,6 +47,120 @@
 			address a {
 				color: @font-styles;
 			}
+
+			li a {
+				text-decoration: none;
+				color: #fff;
+			}
+			[data-tooltip] {
+				position: relative;
+				z-index: 2;
+				cursor: pointer;
+			}
+
+			a.strains:hover::after {
+				content: "We have a wide variety of strains to choose from!" ;
+				position: absolute ;
+				bottom: 150%;
+				left: 50%;
+				  margin-bottom: 5px;
+				margin-left: -80px;
+				padding: 7px;
+				width: 160px;
+				-webkit-border-radius: 3px;
+				-moz-border-radius: 3px;
+				border-radius: 3px;
+				min-width: 200px ;
+				border: 1px #808080 solid ;
+				padding: 8px ;
+				color: #fff;
+				background-color: #ff3b3f;
+				z-index: 1 ;
+				  text-align: center;
+				font-size: 2rem;
+				line-height: 1.2;
+				@media @mobile {
+					display: none;
+				}
+			}
+
+			a.oils:hover::after {
+				content: "We have CBD oils if you prefer to ingest your orally." ;
+				position: absolute ;
+				bottom: 150%;
+				left: 50%;
+				  margin-bottom: 5px;
+				margin-left: -80px;
+				padding: 7px;
+				width: 160px;
+				-webkit-border-radius: 3px;
+				-moz-border-radius: 3px;
+				border-radius: 3px;
+				min-width: 200px ;
+				border: 1px #808080 solid ;
+				padding: 8px ;
+				color: #fff;
+				background-color: #ff3b3f;
+				z-index: 1 ;
+				  text-align: center;
+				font-size: 2rem;
+				line-height: 1.2;
+				@media @mobile {
+					display: none;
+				}
+			}
+
+			a.edibles:hover::after {
+				content: "If you prefer to take yours in an edible form Weed Gotcha!" ;
+				position: absolute ;
+				bottom: 150%;
+				left: 50%;
+				  margin-bottom: 5px;
+				margin-left: -80px;
+				padding: 7px;
+				width: 160px;
+				-webkit-border-radius: 3px;
+				-moz-border-radius: 3px;
+				border-radius: 3px;
+				min-width: 200px ;
+				border: 1px #808080 solid ;
+				padding: 8px ;
+				color: #fff;
+				background-color: #ff3b3f;
+				z-index: 1 ;
+				  text-align: center;
+				font-size: 2rem;
+				line-height: 1.2;
+				@media @mobile {
+					display: none;
+				}
+			}
+
+			a.accessories:hover::after {
+				content: "We also have a wide variety of accessories if you need something new or to replace." ;
+				position: absolute ;
+				bottom: 150%;
+				left: 50%;
+				  margin-bottom: 5px;
+				margin-left: -80px;
+				padding: 7px;
+				width: 160px;
+				-webkit-border-radius: 3px;
+				-moz-border-radius: 3px;
+				border-radius: 3px;
+				min-width: 200px ;
+				border: 1px #808080 solid ;
+				padding: 8px ;
+				color: #fff;
+				background-color: #ff3b3f;
+				z-index: 1 ;
+				  text-align: center;
+				font-size: 2rem;
+				line-height: 1.2;
+				@media @mobile {
+					display: none;
+				}
+			}
 		}
 		
 		.about-right {

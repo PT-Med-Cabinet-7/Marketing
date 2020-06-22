@@ -10,6 +10,7 @@
   <link href = "less/index.less" rel = "stylesheet/less" type = "text/css"/>
   <link href="https://fonts.googleapis.com/css2?family=Anton&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Anton&family=Yanone+Kaffeesatz:wght@500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <!--[if lt IE 9]>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
@@ -21,7 +22,7 @@
     <header>
         <div class="header-content">
             <nav>
-              <img class="first" src="img/weedgotcha.png" />
+                <img class="first" src="img/weedgotcha.png" alt="Weed Gotcha logo"/>
               <h1 class="second" >Weed</h1>
               <h1 class="third">Gotcha</h1>
               <a class="fourth" href="index.html">Home</a>
@@ -33,23 +34,37 @@
     </header>
     <section>
       <div class="main-content">
-          <article class="about-left">
+          <article class="about-left" role="article">
             <h2>About Us</h2>
             <img src="img/christiann-koepke-5SsFQ6oNbX4-unsplash.jpg" alt="clerk assisting dispensary client" />
             <p>Bacon ipsum dolor amet meatloaf landjaeger kielbasa shoulder chuck ham. Venison short loin kielbasa drumstick chuck jerky. Pig cow shoulder biltong filet mignon cupim ribeye prosciutto pork loin tenderloin shankle chislic beef ribs. Spare ribs meatloaf tail, pork loin swine ham hock shankle pork belly filet mignon hamburger.</p>
           </article>
-          <article class="about-right">
+          <article class="about-right" role="article">
             <p>Bacon ipsum dolor amet meatloaf landjaeger kielbasa shoulder chuck ham. Venison short loin kielbasa drumstick chuck jerky. Pig cow shoulder biltong filet mignon cupim ribeye prosciutto pork loin tenderloin shankle chislic beef ribs. Spare ribs meatloaf tail, pork loin swine ham hock shankle pork belly filet mignon hamburger. Kielbasa ground round ham sausage kevin ham hock shank picanha. Pork belly spare ribs bresaola, cow andouille pork hamburger tri-tip. Tenderloin prosciutto ham hock turducken strip steak salami pork loin hamburger jerky shank porchetta. Chicken tail t-bone ham hock corned beef. Jowl pork chop buffalo kielbasa picanha pork salami. Corned beef short ribs tongue brisket pork venison chuck ham hock turducken meatloaf landjaeger. Porchetta beef tri-tip brisket bacon short ribs tongue pig landjaeger strip steak.</p>
           </article>
       </div>
     </section>
     <footer>
-      <div class="footer-content">
-        <article class="left-footer"></article>
-        <article class="middle-footer"><p>&copy; Need it or want it? Weed Gotcha!</p></article>
-        <article class="right-footer"></article>
-      </div>
-    </footer>
+        <div class="footer-content">
+          <article class="left-footer">
+            <ul>
+              <li><i class="fa fa-reddit fa-2x" aria-hidden="true"></i></li>
+              <li><i class="fa fa-github fa-2x" aria-hidden="true"></i></li>
+              <li><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></li>
+              <li><i class="fa fa-quora fa-2x" aria-hidden="true"></i></li>
+            </ul>
+            
+          </article>
+          <article class="middle-footer"><p>&copy; Need it or want it? Weed Gotcha!</p></article>
+          <article class="right-footer">
+              <address>
+                  <h4>Contact Us</h4>
+                  <span>Email:</span><a href="mailto:webmaster@example.com">Info</a><br>
+                  <span>Call:</span><a href="tel:+18888888888">(888) 888-8888</a>
+                </address>
+          </article>
+        </div>
+      </footer>
   </div>
 </body>
 </html>
