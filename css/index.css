@@ -345,7 +345,6 @@ address {
 .container .main-content .about-left {
   width: 40%;
   padding: 1rem;
-  /* @media @tablet {width: 40%;}*/
 }
 @media (max-width: 500px) {
   .container .main-content .about-left {
@@ -353,8 +352,28 @@ address {
     padding: 1rem;
   }
 }
+@media (max-width: 1000px) {
+  .container .main-content .about-left {
+    width: 0%;
+  }
+}
+@media (max-width: 1000px) {
+  .container .main-content .about-left {
+    padding: 0;
+  }
+}
 .container .main-content .about-left img {
   margin: 0 0 2rem;
+}
+@media (max-width: 1000px) {
+  .container .main-content .about-left img {
+    display: none;
+  }
+}
+@media (max-width: 1000px) {
+  .container .main-content .about-left p {
+    display: none;
+  }
 }
 .container .main-content .right {
   width: 25%;
@@ -497,7 +516,6 @@ address {
 .container .main-content .about-right {
   width: 60%;
   padding: 5rem 2rem;
-  /*@media @tablet {width: 60%;}*/
 }
 @media (max-width: 500px) {
   .container .main-content .about-right {
@@ -508,6 +526,16 @@ address {
 @media (max-width: 500px) {
   .container .main-content .about-right {
     width: 100%;
+  }
+}
+@media (max-width: 1000px) {
+  .container .main-content .about-right {
+    width: 100%;
+  }
+}
+@media (max-width: 1000px) {
+  .container .main-content .about-right {
+    padding: 8rem 0rem;
   }
 }
 @media (max-width: 500px) {
@@ -539,6 +567,11 @@ address {
 @media (max-width: 500px) {
   .container .main-content .about-right .card img {
     width: 100%;
+  }
+}
+@media (max-width: 1000px) {
+  .container .main-content .about-right .card img {
+    width: 30%;
   }
 }
 .container .main-content .products {

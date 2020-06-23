@@ -23,10 +23,16 @@
 				width: 100%;
 				padding: 1rem;
 			}
-			/* @media @tablet {width: 40%;}*/
+			@media @tablet {width: 0%;}
+			@media @tablet {padding: 0;}
 
 			img {
 				margin: 0 0 2rem;
+				@media @tablet {display: none;}
+			}
+
+			p {
+				@media @tablet {display: none;}
 			}
 		}
 
@@ -172,7 +178,8 @@
 				padding: 1rem;
 			}
 			@media @mobile {width: 100%;}
-			/*@media @tablet {width: 60%;}*/
+			@media @tablet {width: 100%;}
+			@media @tablet {padding: 8rem 0rem;}
 
 			p {
 				@media @mobile {
@@ -194,6 +201,7 @@
 			.card img {
 				width: 35%;
 				@media @mobile {width: 100%;}
+				@media @tablet {width: 30%;}
 			}
 		}
 
