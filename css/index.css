@@ -514,7 +514,7 @@ address {
   }
 }
 .container .main-content .about-right {
-  width: 60%;
+  width: 100%;
   padding: 5rem 2rem;
 }
 @media (max-width: 500px) {
@@ -567,7 +567,7 @@ address {
   }
 }
 .container .main-content .about-right .card img {
-  width: 35%;
+  width: 30%;
 }
 @media (max-width: 1000px) {
   .container .main-content .about-right .card img {
