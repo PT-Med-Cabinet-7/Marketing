@@ -523,11 +523,6 @@ address {
     padding: 1rem;
   }
 }
-@media (max-width: 500px) {
-  .container .main-content .about-right {
-    width: 100%;
-  }
-}
 @media (max-width: 1000px) {
   .container .main-content .about-right {
     width: 100%;
@@ -536,6 +531,16 @@ address {
 @media (max-width: 1000px) {
   .container .main-content .about-right {
     padding: 8rem 0rem;
+  }
+}
+@media (max-width: 500px) {
+  .container .main-content .about-right {
+    width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .container .main-content .about-right {
+    padding: 0;
   }
 }
 @media (max-width: 500px) {
@@ -564,14 +569,14 @@ address {
 .container .main-content .about-right .card img {
   width: 35%;
 }
-@media (max-width: 500px) {
-  .container .main-content .about-right .card img {
-    width: 100%;
-  }
-}
 @media (max-width: 1000px) {
   .container .main-content .about-right .card img {
     width: 30%;
+  }
+}
+@media (max-width: 500px) {
+  .container .main-content .about-right .card img {
+    width: 100%;
   }
 }
 .container .main-content .products {
