@@ -343,7 +343,7 @@ address {
   }
 }
 .container .main-content .about-left {
-  width: 50%;
+  width: 40%;
   padding: 1rem;
   /* @media @tablet {width: 40%;}*/
 }
@@ -495,7 +495,7 @@ address {
   }
 }
 .container .main-content .about-right {
-  width: 50%;
+  width: 60%;
   padding: 5rem 2rem;
   /*@media @tablet {width: 60%;}*/
 }
@@ -521,6 +521,7 @@ address {
 }
 .container .main-content .about-right .card p {
   margin: 0 1rem;
+  font-size: 2rem;
 }
 .container .main-content .about-right .card img {
   width: 35%;
