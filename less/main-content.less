@@ -169,28 +169,31 @@
 			padding: 5rem 2rem;
 			@media @mobile {
 				width: 100%;
-				padding: 1rem 0;
+				padding: 1rem;
 			}
 			@media @mobile {width: 100%;}
 			/*@media @tablet {width: 60%;}*/
 
 			p {
 				@media @mobile {
-					padding: 1rem;
+					padding: 1rem 0;
 				}
 			}
 
 			.card {
 				margin: 1rem 0;
 				display: flex;
+				@media @mobile {flex-direction: column;}
 				p {
 					margin: 0 1rem;
 					font-size: 2rem;
+					@media @mobile {margin: 0;}
 				}
 			}
 
 			.card img {
 				width: 35%;
+				@media @mobile {width: 100%;}
 			}
 		}
 
