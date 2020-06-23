@@ -147,7 +147,7 @@ nav {
 }
 nav a {
   margin: 0 0.5rem;
-  padding: 0.5rem;
+  padding: 0.8rem;
   color: #fff;
   border: 1px solid #6b6e70;
   background: #ff3b3f;
@@ -343,9 +343,8 @@ address {
   }
 }
 .container .main-content .about-left {
-  width: 50%;
+  width: 40%;
   padding: 1rem;
-  /* @media @tablet {width: 40%;}*/
 }
 @media (max-width: 500px) {
   .container .main-content .about-left {
@@ -353,8 +352,28 @@ address {
     padding: 1rem;
   }
 }
+@media (max-width: 1000px) {
+  .container .main-content .about-left {
+    width: 0%;
+  }
+}
+@media (max-width: 1000px) {
+  .container .main-content .about-left {
+    padding: 0;
+  }
+}
 .container .main-content .about-left img {
   margin: 0 0 2rem;
+}
+@media (max-width: 1000px) {
+  .container .main-content .about-left img {
+    display: none;
+  }
+}
+@media (max-width: 1000px) {
+  .container .main-content .about-left p {
+    display: none;
+  }
 }
 .container .main-content .right {
   width: 25%;
@@ -495,35 +514,70 @@ address {
   }
 }
 .container .main-content .about-right {
-  width: 50%;
+  width: 60%;
   padding: 5rem 2rem;
-  /*@media @tablet {width: 60%;}*/
 }
 @media (max-width: 500px) {
   .container .main-content .about-right {
     width: 100%;
-    padding: 1rem 0;
+    padding: 1rem;
+  }
+}
+@media (max-width: 1000px) {
+  .container .main-content .about-right {
+    width: 100%;
+  }
+}
+@media (max-width: 1000px) {
+  .container .main-content .about-right {
+    padding: 8rem 0rem;
   }
 }
 @media (max-width: 500px) {
   .container .main-content .about-right {
     width: 100%;
+  }
+}
+@media (max-width: 500px) {
+  .container .main-content .about-right {
+    padding: 0;
   }
 }
 @media (max-width: 500px) {
   .container .main-content .about-right p {
-    padding: 1rem;
+    padding: 1rem 0;
   }
 }
 .container .main-content .about-right .card {
   margin: 1rem 0;
   display: flex;
 }
+@media (max-width: 500px) {
+  .container .main-content .about-right .card {
+    flex-direction: column;
+  }
+}
 .container .main-content .about-right .card p {
   margin: 0 1rem;
+  font-size: 2rem;
+}
+@media (max-width: 500px) {
+  .container .main-content .about-right .card p {
+    margin: 0;
+  }
 }
 .container .main-content .about-right .card img {
   width: 35%;
+}
+@media (max-width: 1000px) {
+  .container .main-content .about-right .card img {
+    width: 30%;
+  }
+}
+@media (max-width: 500px) {
+  .container .main-content .about-right .card img {
+    width: 100%;
+  }
 }
 .container .main-content .products {
   width: 100%;

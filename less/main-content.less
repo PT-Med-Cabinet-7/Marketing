@@ -17,16 +17,22 @@
 		}
 
 		.about-left {
-			width: 50%;
+			width: 40%;
 			padding: 1rem;
 			@media @mobile {
 				width: 100%;
 				padding: 1rem;
 			}
-			/* @media @tablet {width: 40%;}*/
+			@media @tablet {width: 0%;}
+			@media @tablet {padding: 0;}
 
 			img {
 				margin: 0 0 2rem;
+				@media @tablet {display: none;}
+			}
+
+			p {
+				@media @tablet {display: none;}
 			}
 		}
 
@@ -165,31 +171,39 @@
 		}
 		
 		.about-right {
-			width: 50%;
+			width: 60%;
 			padding: 5rem 2rem;
 			@media @mobile {
 				width: 100%;
-				padding: 1rem 0;
+				padding: 1rem;
 			}
+
+			@media @tablet {width: 100%;}
+			@media @tablet {padding: 8rem 0rem;}
 			@media @mobile {width: 100%;}
-			/*@media @tablet {width: 60%;}*/
+			@media @mobile {padding: 0;}
 
 			p {
 				@media @mobile {
-					padding: 1rem;
+					padding: 1rem 0;
 				}
 			}
 
 			.card {
 				margin: 1rem 0;
 				display: flex;
+				@media @mobile {flex-direction: column;}
 				p {
 					margin: 0 1rem;
+					font-size: 2rem;
+					@media @mobile {margin: 0;}
 				}
 			}
 
 			.card img {
 				width: 35%;
+				@media @tablet {width: 30%;}
+				@media @mobile {width: 100%;}
 			}
 		}
 
