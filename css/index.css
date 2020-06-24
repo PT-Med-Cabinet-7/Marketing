@@ -572,7 +572,7 @@ address {
   }
 }
 .container .main-content .about-right .card img {
-  width: 30%;
+  width: 100%;
 }
 @media (max-width: 1000px) {
   .container .main-content .about-right .card img {
@@ -581,8 +581,11 @@ address {
 }
 @media (max-width: 500px) {
   .container .main-content .about-right .card img {
-    width: 70%;
+    width: 100%;
   }
+}
+.container .main-content .about-right .card-img {
+  flex: 0 0 200px;
 }
 @media (max-width: 1000px) {
   .container .main-content .about-right .card-img {
@@ -639,6 +642,11 @@ address {
 @media (max-width: 500px) {
   .footer-content {
     flex-direction: column;
+  }
+}
+@media (max-width: 1000px) {
+  .footer-content {
+    padding: 10rem;
   }
 }
 .footer-content p {
