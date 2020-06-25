@@ -637,6 +637,7 @@ address {
   padding: 10rem 20rem;
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   background-color: #86c232;
 }
 @media (max-width: 500px) {
