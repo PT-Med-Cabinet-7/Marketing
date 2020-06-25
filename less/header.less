@@ -1,15 +1,38 @@
-.header-content {
-    padding: @section-padding;
-    background-color: @header-footer;
-    @media @mobile { 
-        padding: @mobile-header-padding;
+header {
+    .login {
+        height: 5rem;
+        display: flex;
+        flex-direction: row-reverse;
+        background-color: #86c232;
+        box-shadow: inset 0px -1px 3px 0px #000000;
+        background-color: #61892f;
+
+        button {
+            width: 10rem;
+            padding: 0.8rem;
+            color: #fff;
+            border: 1px solid #6b6e70;
+            background: #ff3b3f;
+            text-decoration: none;
+            font-size: 2.7rem;
+            font-family: 'Yanone Kaffeesatz', sans-serif;
+        }
     }
 
-    h1 {
-        margin: 0 0 2rem;
-        font-family: @h-fonts;
-        font-size: 4rem;
-        color: @font-styles;
-        @media @tablet {margin: 0 0.7rem 2rem;}
+    .header-content {
+        padding: @section-padding;
+        background-color: @header-footer;
+        @media @mobile { 
+            padding: @mobile-header-padding;
+        }
+    
+        h1 {
+            margin: 0 0 2rem;
+            font-family: @h-fonts;
+            font-size: 4rem;
+            color: @font-styles;
+            @media @tablet {margin: 0 0.7rem 2rem;}
+        }
     }
 }
+
