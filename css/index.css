@@ -719,23 +719,41 @@ address {
     padding: 3rem;
   }
 }
-.header-content {
+header .login {
+  height: 5rem;
+  display: flex;
+  flex-direction: row-reverse;
+  background-color: #86c232;
+  box-shadow: inset 0px -1px 3px 0px #000000;
+  background-color: #61892f;
+}
+header .login button {
+  width: 10rem;
+  padding: 0.8rem;
+  color: #fff;
+  border: 1px solid #6b6e70;
+  background: #ff3b3f;
+  text-decoration: none;
+  font-size: 2.7rem;
+  font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+header .header-content {
   padding: 5rem;
   background-color: #86c232;
 }
 @media (max-width: 500px) {
-  .header-content {
+  header .header-content {
     padding: 6rem 3rem 0;
   }
 }
-.header-content h1 {
+header .header-content h1 {
   margin: 0 0 2rem;
   font-family: 'Anton', sans-serif;
   font-size: 4rem;
   color: #fff;
 }
 @media (max-width: 1000px) {
-  .header-content h1 {
+  header .header-content h1 {
     margin: 0 0.7rem 2rem;
   }
 }
