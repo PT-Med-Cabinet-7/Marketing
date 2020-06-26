@@ -715,6 +715,9 @@ address {
     text-align: justify;
   }
 }
+.footer-content .right-footer address span {
+  font-size: 3rem;
+}
 @media (max-width: 500px) {
   .footer-content {
     padding: 3rem;
