@@ -675,7 +675,10 @@ address {
 .footer-content .left-footer li {
   padding: 0.5rem;
 }
-.footer-content .left-footer .fa-3x {
+.footer-content .left-footer li a {
+  font-size: 1.2rem;
+}
+.footer-content .left-footer .fa-2x {
   color: #fff;
 }
 .footer-content .middle-footer {
