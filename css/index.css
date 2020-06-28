@@ -734,9 +734,9 @@ header .login {
   height: 5rem;
   display: flex;
   flex-direction: row-reverse;
+  justify-content: space-between;
   background-color: #86c232;
   box-shadow: inset 0px -1px 3px 0px #000000;
-  background-color: #61892f;
 }
 header .login button {
   width: 10rem;
@@ -748,6 +748,9 @@ header .login button {
   text-decoration: none;
   font-size: 2.7rem;
   font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+header .login img {
+  width: 4rem;
 }
 header .header-content {
   padding: 5rem;
