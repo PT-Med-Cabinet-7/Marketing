@@ -727,6 +727,10 @@ address {
   }
 }
 header .login {
+  position: fixed;
+  right: 0;
+  left: 0;
+  z-index: 999;
   height: 5rem;
   display: flex;
   flex-direction: row-reverse;
@@ -748,6 +752,7 @@ header .login button {
 header .header-content {
   padding: 5rem;
   background-color: #86c232;
+  box-shadow: inset 0px 1px 5px 0px #6b6e70;
 }
 @media (max-width: 500px) {
   header .header-content {
