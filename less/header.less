@@ -1,5 +1,10 @@
 header {
     .login {
+        position: fixed;
+        right: 0;
+        left: 0;
+        z-index: 999;
+
         height: 5rem;
         display: flex;
         flex-direction: row-reverse;
@@ -23,6 +28,7 @@ header {
     .header-content {
         padding: @section-padding;
         background-color: @header-footer;
+        box-shadow: inset 0px 1px 5px 0px #6b6e70;
         @media @mobile { 
             padding: @mobile-header-padding;
         }
